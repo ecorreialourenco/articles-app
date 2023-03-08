@@ -1,0 +1,13 @@
+.textArea {
+  width: 100%;
+  display: grid;
+}
+
+.label {
+  padding-bottom: 5px;
+}
+
+.textAreaInput {
+  resize: none;
+  padding: 8px 4px;
+}

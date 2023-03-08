@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+  grid-template-columns: 40% auto;
+  margin: 15px;
+}
+
+.itemType {
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer {
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.favoriteIcon {
+  padding-top: 1.4rem;
+  color: red;
+}
+
+.favIcon {
+  padding-top: 1.4rem;
+}
+
+.description {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

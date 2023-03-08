@@ -1,0 +1,25 @@
+.login {
+  display: block;
+  width: 200px;
+  margin: 25% auto;
+  transform: translate(0, -50%);
+}
+
+.loginButton {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .login {
+    margin: 50% auto;
+    transform: translate(0, -50%);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .login {
+    margin: 40vh auto;
+    transform: translate(0, -50%);
+  }
+}

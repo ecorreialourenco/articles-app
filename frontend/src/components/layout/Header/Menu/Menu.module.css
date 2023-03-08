@@ -1,0 +1,19 @@
+.horizontal {
+  display: block;
+}
+
+.horizontal a {
+  text-decoration: none;
+  color: black;
+  padding: 0 5px;
+}
+
+.vertical {
+  display: grid;
+}
+
+.vertical a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 0;
+}

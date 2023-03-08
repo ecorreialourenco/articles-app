@@ -1,0 +1,27 @@
+.input {
+  display: grid;
+  position: relative;
+  margin: 10px 0;
+}
+
+.label {
+  padding-bottom: 5px;
+}
+
+.inputField {
+  padding: 6px 30px 6px 8px;
+}
+
+.inputIcon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.inputIconWithLabel {
+  position: absolute;
+  top: 31px;
+  right: 8px;
+  cursor: pointer;
+}

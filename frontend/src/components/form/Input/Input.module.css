@@ -1,0 +1,12 @@
+.input {
+  display: grid;
+  margin: 10px 0;
+}
+
+.label {
+  padding-bottom: 5px;
+}
+
+.inputField {
+  padding: 8px 4px;
+}

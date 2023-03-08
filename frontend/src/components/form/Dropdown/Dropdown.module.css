@@ -1,0 +1,17 @@
+.dropdown {
+  width: 100%;
+  display: grid;
+  margin: 5px 0;
+}
+
+.label {
+  padding-bottom: 5px;
+}
+
+.select {
+  padding: 8px 4px;
+}
+
+.option {
+  padding: 5px 0;
+}

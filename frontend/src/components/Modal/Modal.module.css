@@ -1,0 +1,29 @@
+.isOpen {
+  display: block;
+}
+
+.isClosed {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, 10px);
+  z-index: 20;
+  background-color: white;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+.content {
+  height: 60vh;
+  overflow: auto;
+  padding: 10px 20px;
+}

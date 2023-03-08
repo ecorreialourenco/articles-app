@@ -1,0 +1,9 @@
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: auto auto;
+}

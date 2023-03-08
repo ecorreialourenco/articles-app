@@ -1,0 +1,65 @@
+.button {
+  padding: 6px 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:disabled {
+  pointer-events: none;
+  background-color: gainsboro;
+  color: black;
+}
+
+.iconButton {
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 6px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.iconButton:disabled {
+  pointer-events: none;
+  background-color: gainsboro;
+  color: black;
+}
+
+.primary {
+  background-color: mediumblue;
+  color: white;
+}
+
+.primary:hover {
+  background-color: lightskyblue;
+}
+
+.secondary {
+  background-color: lightseagreen;
+  color: white;
+}
+
+.secondary:hover {
+  background-color: lightgreen;
+}
+
+.info {
+  background-color: gray;
+  color: white;
+}
+
+.info:hover {
+  background-color: lightgray;
+}
+
+.danger {
+  background-color: red;
+  color: white;
+}
+
+.danger:hover {
+  background-color: lightcoral;
+}

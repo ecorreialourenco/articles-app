@@ -1,0 +1,9 @@
+.backdrop {
+  position: absolute;
+  width: 100vw;
+  height: calc(100vh - 45px);
+  background-color: black;
+  opacity: 0.6;
+  z-index: 10;
+  top: 54px;
+}

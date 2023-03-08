@@ -1,0 +1,18 @@
+.tableHeader {
+  display: grid;
+  grid-template-columns: auto 30% 125px;
+  background-color: lightgray;
+}
+
+.text {
+  margin: 5px;
+}
+
+.tableBody {
+  display: grid;
+  grid-template-columns: auto 30% 125px;
+}
+
+.actions {
+  display: flex;
+}

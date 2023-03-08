@@ -1,0 +1,7 @@
+.container {
+  display: grid;
+}
+
+.label {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  grid-template-columns: 40% auto;
+}
+
+.imageContainer {
+  width: 100%;
+  padding-top: 1.4em;
+}
+
+.image {
+  width: 100%;
+}
+
+.textContainer {
+  padding: 0 10px;
+}
+
+.title {
+  overflow: hidden;
+}
+
+.description {
+  display: block;
+}
