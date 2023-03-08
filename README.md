@@ -8,7 +8,8 @@ Articles app build in react (front-end) and nodejs (back-end).
 2. Go to backend folder `cd backend`
 3. Run `npm install` to install the backend dependencies
 4. Run `npm start` to start the development server
-   _Optional: To populate with mock data, use the following endpoints:_
+
+   > _Optional: To populate with mock data, use the following endpoints:_
 
    - `http://localhost:8001/api/mock/load-users`
    - `http://localhost:8001/api/mock/load-articles`
@@ -20,7 +21,7 @@ Articles app build in react (front-end) and nodejs (back-end).
 ## Usage
 
 - Create an account using the signup form
-  _If the database are populated with mock data, you can use the following accounts:_
+  > _If the database are populated with mock data, you can use the following accounts:_
   - username: `admin` password: `123`
   - username: `demo` password: `123`
 - Login with your account
